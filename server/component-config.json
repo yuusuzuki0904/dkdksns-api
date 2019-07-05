@@ -1,0 +1,20 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true
+  },
+  "loopback-component-log": {
+    "enabled": true,
+    "name": "dkdksns",
+    "http": true,
+    "level": "info",
+    "useStdOut": false,
+    "useLogFile": true,
+    "path": "/var/log/dkdksns-api",
+    "maxResponseTime": 30000,
+    "excludes": [
+      "req",
+      "res"
+    ]
+  }
+}
