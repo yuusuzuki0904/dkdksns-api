@@ -20,11 +20,14 @@
     "loopback-component-explorer": "^6.2.0",
     "loopback": "^3.22.0",
     "loopback-connector-mongodb": "4.2.0",
-    "loopback-component-log": "1.0.2"
+    "loopback-component-log": "1.0.2",
+    "loopback-component-storage": "1.10.1"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-loopback": "^8.0.0"
+    "eslint": "^5.16.0",
+    "eslint-config-loopback": "^8.0.0",
+    "loopback-api-testing": "^0.3.3",
+    "mocha": "^6.1.4"
   },
   "repository": {
     "type": "",

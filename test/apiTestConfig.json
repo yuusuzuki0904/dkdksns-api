@@ -1,0 +1,19 @@
+[
+    {
+        "method": "POST",
+        "model": "Samples",
+        "withData": {
+            "pop1": "blue"
+        },
+        "expect": 200
+    },
+    {
+        "method": "POST",
+        "model": "Samples",
+        "withData": {
+            "pop1": "blue",
+            "id": "blue"
+        },
+        "expect": 422
+    }
+]

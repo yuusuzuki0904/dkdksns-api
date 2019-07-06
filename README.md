@@ -26,6 +26,12 @@
     http://localhost:3000/explorer
     ```
 
+# テストの実行方法
+以下のコマンドをプロジェクトのルートディレクトリで実行する
+```
+$ node_modules/mocha/bin/mocha --reporter spec test
+```
+
 # 依存モジュールのバージョン情報
 * node:10.16.0
 * npm:6.9.0
