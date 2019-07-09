@@ -5,7 +5,7 @@
     "url": "",
     "database": "dkdksnsserverdb",
     "password": "",
-    "name": "dkdksns",
+    "name": "db",
     "user": "",
     "authSource": "admin",
     "connector": "mongodb"
